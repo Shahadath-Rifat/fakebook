@@ -22,6 +22,7 @@
 body {
     background-color: var(--app-dark-bg);
     font-family: Arial, sans-serif;
+    overflow: auto;
 }
 
 .container-header {
@@ -40,7 +41,7 @@ body {
     line-height: 55px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    margin-left: 27px;
+    margin-left: 70px;
 }
 
 nav ul {
@@ -71,16 +72,88 @@ nav ul li + li {
     margin-left: 20px;
 }
 
-.title + nav {
-    margin-left: 45px;
-}
+
 
 .icon {
     height: 48px;
     width: 48px;
     cursor: pointer;
-    margin-right: 30px;
+    margin-right: 70px;
+    align-items: center;
     margin-top: 7px;
-    color: white;
 }
+
+.container-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.upload {
+    width: 600px;
+    height: 260px;
+    background-color:#3e4653;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#upload-txt {
+    width: 100%;
+    height: 120px;
+    padding: 7px;
+    background-color:#3e4653;
+    font-size: 20px;
+    color:var(--app-white);
+}
+
+.upload-file {
+    color: var(--app-white);
+    cursor: pointer;
+}
+
+.upload-file i {
+    font-size: 25px;
+    margin: 6px;
+}
+
+#upload-file {
+    display: none;
+}
+
+#upload-button {
+    width: 125px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 26px 30px -10px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    background-color:var(--app-orange); 
+    text-align: center;
+}
+
+#upload-button:hover {
+    background-color:var(--app-orange-text);
+}
+
+/*#upload-section {
+    min-height: 350px;
+    width: 650px;
+    padding: 10px;
+    margin: 20px;
+}*/
+
+
+
 
