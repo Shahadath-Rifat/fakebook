@@ -23,3 +23,64 @@ body {
     background-color: var(--app-dark-bg);
     font-family: Arial, sans-serif;
 }
+
+.container-header {
+    height: 60px;
+    background-color:#3e4653;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    line-height: 55px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-left: 27px;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 56px;
+}
+
+nav ul li a {
+    color:var(--app-white);
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    transition: color 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #0659ac;
+}
+
+nav ul li + li {
+    margin-left: 20px;
+}
+
+.title + nav {
+    margin-left: 45px;
+}
+
+.icon {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 7px;
+    color: white;
+}
+
