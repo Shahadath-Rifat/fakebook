@@ -92,7 +92,7 @@ nav ul li + li {
 
 .upload {
     width: 600px;
-    height: 260px;
+    height: 200px;
     background-color:#3e4653;
     display: flex;
     justify-content: center;
@@ -147,12 +147,32 @@ nav ul li + li {
     background-color:var(--app-orange-text);
 }
 
-/*#upload-section {
-    min-height: 350px;
-    width: 650px;
+#upload-section {
+    height: 150px;
+    width: 500px;
     padding: 10px;
-    margin: 20px;
-}*/
+    margin-top: 10px;
+    margin-left:255px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+}
+
+#upload-section > div {
+    margin-top: 30px;
+    font-size: 20px;
+    background-color:#3e4653;
+    height: 180px;
+    width: 580px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
 
 
 
